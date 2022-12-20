@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="font_size_48px">Задачи Java Script</h1>
+</header>
+
+<section class="tasks">
+    <h2 font_size_32px>
+        94 задача. В переменной date лежит дата в формате '2025-12-31'. Преобразуйте эту дату в формат '31/12/2025'.
+    </h2>
+
+    <pre>
+        let date = '2025-12-31'
+        let arr = date.split('-');
+        let newdate = arr[2] + '/' + arr[1] + '/' + arr[0];
+
+        alert(newdate);
+    </pre>
+
+    <script>
+        
+        function func() {
+            let date = '2025-12-31'
+            let arr = date.split('-');
+            let newdate = arr[2] + '/' + arr[1] + '/' + arr[0];
+
+            alert(newdate);
+        }
+
+    </script>
+
+    <input value="Выполнить" onclick="func()" type="button">
+
+</section>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="font_size_48px">Задачи Java Script</h1>
+</header>
+
+<section class="tasks">
+    <h2 font_size_32px>
+        154 задача. Дан массив с числами. Создайте из него новый массив, где останутся лежать только положительные числа. Создайте для этого вспомогательную функцию isPositive(), которая параметром будет принимать число и возвращать true, если число положительное, и false - если отрицательное.
+    </h2>
+
+    <pre>
+        function isPositive(num) {
+            if (num >=0) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    
+        var newArr = [];
+        for (var i = 0; i <= arr.length; i++) {
+            if (isPositive(arr[i])) {
+                newArr.push(arr[i]);
+            }
+        }
+    
+        alert(newArr);
+    
+    </pre>
+
+    <script>
+        
+        function func() {
+        if (num >=0) {
+            return true;
+        } else {
+            return false;
+        }
+        }
+
+        var newArr = [];
+        for (var i = 0; i <= arr.length; i++) {
+            if (isPositive(arr[i])) {
+                newArr.push(arr[i]);
+            }
+        }
+
+        alert(newArr);
+
+
+    </script>
+
+    <input value="Выполнить" onclick="func()" type="button">
+
+</section>
+
+</body>
+</html>

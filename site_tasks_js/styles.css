@@ -1,0 +1,69 @@
+header {
+  background-image: url("images/index/Depositphotos_32763083_m-2015-e1500438283347.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+
+li {
+  list-style-type: none;
+}
+
+pre {
+  padding: 20px;
+  background-color: gainsboro;
+}
+
+.header_menu li {
+  float: left;
+}
+
+.header_menu li a {
+  display: block;
+  color: rgb(137, 6, 189);
+  text-align: center;
+  padding: 40px;
+  text-decoration: none;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: "Kaisei Tokumin";
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.tasks {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body {
+  margin: 0;
+  background: #F4F1F8;
+}
+
+a {
+  color: #1a5306;
+  display: flex;
+  padding-bottom: 40px;
+  font-size: 25px;
+}
+
+.font_size_16px {
+  font-size: 16px;
+}
+
+.font_size_32px {
+  font-size: 32px;
+}
+
+.font_size_48px {
+  font-size: 48px;
+}

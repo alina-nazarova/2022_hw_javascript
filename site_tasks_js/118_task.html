@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="font_size_48px">Задачи Java Script</h1>
+</header>
+
+<section class="tasks">
+    <h2 font_size_32px>
+        118 задача. Дан массив [1, 2, 3, 4, 5]. С помощью метода slice запишите в новый элементы [4, 5].
+    </h2>
+
+    <pre>
+        let arr1 = [1, 2, 3, 4, 5];
+        let arr2 = arr1.slice(3, 5);
+
+        alert(arr2);
+    </pre>
+
+    <script>
+        
+        function func() {
+            let arr1 = [1, 2, 3, 4, 5];
+            let arr2 = arr1.slice(3, 5);
+
+            alert(arr2);
+        }
+
+    </script>
+
+    <input value="Выполнить" onclick="func()" type="button">
+
+</section>
+
+</body>
+</html>

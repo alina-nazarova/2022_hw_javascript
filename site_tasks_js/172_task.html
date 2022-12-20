@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="font_size_48px">Задачи Java Script</h1>
+</header>
+
+<section class="tasks">
+    <h2 font_size_32px>
+        172 задача. Заполните массив 10-ю случайными числами от 1 до 10 с помощью цикла.
+    </h2>
+
+    <pre>
+        let arr = [];
+        for (let i = 0; i < 10; i++) {
+            arr[i] = Math.round(Math.random() * 10);
+        }
+        alert(arr);
+    </pre>
+
+    <script>
+        
+        function func() {
+            let arr = [];
+            for (let i = 0; i < 10; i++) {
+                arr[i] = Math.round(Math.random() * 10);
+            }
+            alert(arr);
+                }
+
+    </script>
+
+    <input value="Выполнить" onclick="func()" type="button">
+
+</section>
+
+</body>
+</html>

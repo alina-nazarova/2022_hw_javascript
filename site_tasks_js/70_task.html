@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="font_size_48px">Задачи Java Script</h1>
+</header>
+
+<section class="tasks">
+    <h2 font_size_32px>
+        70 задача. Дан массив с элементами 2, 5, 9, 15, 0, 4. С помощью цикла for и оператора if выведите на экран столбец тех элементов массива, которые больше 3-х, но меньше 10.
+    </h2>
+
+    <pre>
+        let arr =  [2, 5, 9, 15, 0, 4]; 
+
+        for (var i = 0; i < arr.length; i++) {
+
+            if (arr[i] > 3 && arr[i] < 10) document.write(arr[i]);
+
+        }
+    </pre>
+
+    <script>
+        
+        function func() {
+            let arr =  [2, 5, 9, 15, 0, 4]; 
+
+            for (var i = 0; i < arr.length; i++) {
+
+                if (arr[i] > 3 && arr[i] < 10) document.write(arr[i]);
+
+            }
+        }
+
+    </script>
+
+    <input value="Выполнить" onclick="func()" type="button">
+
+</section>
+
+</body>
+</html>

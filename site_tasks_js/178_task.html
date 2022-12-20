@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="font_size_48px">Задачи Java Script</h1>
+</header>
+
+<section class="tasks">
+    <h2 font_size_32px>
+        178 задача. Разместите в теле HTML-страницы сценарий , выводящий всплывающее окно с надписью .Включите в НТМL-страницу сценарий из внешнего файла script.js, который расположен в той же директории, где располагается и сам HTML-документ
+    </h2>
+
+    <pre>
+        function showAlert() {
+            alert("Всплывающее окно");
+        }
+    </pre>
+
+    <script>
+        
+        function func() {
+            function showAlert() {
+            alert("Всплывающее окно");
+        }
+        }
+
+    </script>
+
+    <input value="Выполнить" onclick="func()" type="button">
+
+</section>
+
+</body>
+</html>

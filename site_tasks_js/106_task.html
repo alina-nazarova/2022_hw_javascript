@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="font_size_48px">Задачи Java Script</h1>
+</header>
+
+<section class="tasks">
+    <h2 font_size_32px>
+        106 задача. Преобразуйте строку 'var_test_text' в 'varTestText'. Скрипт, конечно же, должен работать с любыми аналогичными строками.
+    </h2>
+
+    <pre>
+        function underscoreToCamelcase( str ) {
+            str.split('_');
+            str1 = str.join(' '); // объединить массив в строку через ;
+            alert( str )
+            
+          } 
+
+          let example1 = "var_test_text";
+          alert(`${example1} -> ${underscoreToCamelcase(example1)}`);
+      
+          let example2 = "one";
+          alert(`${example2} -> ${underscoreToCamelcase(example2)}`);
+      
+          let example3 = "two_words";
+          alert(`${example3} -> ${underscoreToCamelcase(example3)}`);
+    </pre>
+
+    <script>
+            function underscoreToCamelcase() {
+                str.split('_');
+                str1 = str.join(' '); // объединить массив в строку через ;
+                alert( str )
+                
+                } 
+
+                let example1 = "var_test_text";
+                alert(`${example1} -> ${underscoreToCamelcase(example1)}`);
+
+                let example2 = "one";
+                alert(`${example2} -> ${underscoreToCamelcase(example2)}`);
+
+                let example3 = "two_words";
+                alert(`${example3} -> ${underscoreToCamelcase(example3)}`);
+        
+
+    </script>
+
+    <input value="Выполнить" onclick="underscoreToCamelcase()" type="button">
+
+</section>
+
+</body>
+</html>

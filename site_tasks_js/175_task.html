@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="font_size_48px">Задачи Java Script</h1>
+</header>
+
+<section class="tasks">
+    <h2 font_size_32px>
+        175 задача. Дан массив с числами. С помощью цикла найдите сумму элементов этого массива.
+    </h2>
+
+    <pre>
+        let arr = [1, 2, 3, 4, 5];
+        let result = 0;
+        for (let i = 0; i < arr.length; i++) {
+            result += arr[i];
+        }
+        alert(result);
+    </pre>
+
+    <script>
+        
+        function func() {
+            let arr = [1, 2, 3, 4, 5];
+            let result = 0;
+            for (let i = 0; i < arr.length; i++) {
+                result += arr[i];
+            }
+            alert(result);
+                }
+
+    </script>
+
+    <input value="Выполнить" onclick="func()" type="button">
+
+</section>
+
+</body>
+</html>

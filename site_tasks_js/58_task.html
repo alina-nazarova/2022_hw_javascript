@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="font_size_48px">Задачи Java Script</h1>
+</header>
+
+<section class="tasks">
+    <h2 font_size_32px>
+        58 задача. Дана строка с цифрами, например, '12345'. Проверьте, что первым символом этой строки является цифра 1, 2 или 3. Если это так - выведите 'да', в противном случае выведите 'нет'.
+    </h2>
+
+    <pre>
+        let str = '12345';
+
+        if (str[0] == 1 || str[0] == 2 || str[0] == 3) {
+        alert('да');
+        } else {
+        alert('нет');
+        };
+    </pre>
+
+    <script>
+        
+        function func() {
+            let str = '12345';
+
+            if (str[0] == 1 || str[0] == 2 || str[0] == 3) {
+            alert('да');
+            } else {
+            alert('нет');
+            };
+        }
+
+    </script>
+
+    <input value="Выполнить" onclick="func()" type="button">
+
+</section>
+
+</body>
+</html>
