@@ -20,44 +20,48 @@
     </h2>
 
     <pre>
+        // превращает нижнее подчеркивание в верблюжий способ 
         function underscoreToCamelcase( str ) {
-            str.split('_');
-            str1 = str.join(' '); // объединить массив в строку через ;
-            alert( str )
-            
-          } 
+            const arr = str.split('_');
+            // ['var' 'test', 'text']
 
-          let example1 = "var_test_text";
-          alert(`${example1} -> ${underscoreToCamelcase(example1)}`);
-      
-          let example2 = "one";
-          alert(`${example2} -> ${underscoreToCamelcase(example2)}`);
-      
-          let example3 = "two_words";
-          alert(`${example3} -> ${underscoreToCamelcase(example3)}`);
+            for (let i = 1; i < arr.length; i++) {
+                arr[i] = arr[i][0].toUpperCase() + arr[i].slice(1);
+            }
+            // ['var', 'Test', 'Text']
+
+            const new_str = arr.join(''); // объединить массив в строку через ;
+            return new_str;
+        } 
+
+        let example1 = "var_test_text";
+        alert(`${example1} -> ${underscoreToCamelcase(example1)}`);
     </pre>
 
     <script>
-            function underscoreToCamelcase() {
-                str.split('_');
-                str1 = str.join(' '); // объединить массив в строку через ;
-                alert( str )
-                
-                } 
 
-                let example1 = "var_test_text";
-                alert(`${example1} -> ${underscoreToCamelcase(example1)}`);
-
-                let example2 = "one";
-                alert(`${example2} -> ${underscoreToCamelcase(example2)}`);
-
-                let example3 = "two_words";
-                alert(`${example3} -> ${underscoreToCamelcase(example3)}`);
-        
+        function func() {
+            // превращает нижнее подчеркивание в верблюжий способ 
+            function underscoreToCamelcase( str ) {
+                const arr = str.split('_');
+                // ['var' 'test', 'text']
+    
+                for (let i = 1; i < arr.length; i++) {
+                    arr[i] = arr[i][0].toUpperCase() + arr[i].slice(1);
+                }
+                // ['var', 'Test', 'Text']
+    
+                const new_str = arr.join(''); // объединить массив в строку через ;
+                return new_str;
+            } 
+    
+            let example1 = "var_test_text";
+            alert(`${example1} -> ${underscoreToCamelcase(example1)}`);
+        }
 
     </script>
 
-    <input value="Выполнить" onclick="underscoreToCamelcase()" type="button">
+    <input value="Выполнить" onclick="func();" type="button">
 
 </section>
 
